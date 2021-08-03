@@ -1,5 +1,5 @@
 import '../scss/style.scss';
-import displayBoard from './displayBoard.js';
+import displayBoard from './displayBoard';
 
 const scores = [
   { name: 'name1', score: 100 },
