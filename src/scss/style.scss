@@ -10,27 +10,28 @@
 }
 
 .container {
+  margin-top: 50px;
   position: relative;
   height: 80vh;
   width: 100%;
   font-family: 'bangers';
   background-image: url('/mario.jpg');
   background-repeat: no-repeat;
-  background-size: 20%;
-  background-position: 100% 35%;
+  background-size: 18%;
+  background-position: 100% 12%;
 }
 
 .container::before {
   content: '';
   background-image: url('/mario2.png');
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: 50% 0;
+  background-size: 75%;
+  background-position: center;
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   opacity: 0.35;
 }
 
@@ -58,6 +59,12 @@ h3 {
   padding: 20px;
 }
 
+h4{
+  text-align: end;
+  margin-right: 150px;
+  position: relative;
+  font-size: 20px;
+}
 button {
   font-family: 'bangers';
   color: red;
@@ -68,10 +75,6 @@ button {
 
 button[type='submit'] {
   margin: 10px 0 0 160px;
-}
-
-p {
-  font-size: 20px;
 }
 
 input {
@@ -93,7 +96,7 @@ li:nth-child(2n) {
 
 footer {
   text-align: center;
-  margin: 175px;
+
 }
 
 a {
