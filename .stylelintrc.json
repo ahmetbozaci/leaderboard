@@ -7,5 +7,5 @@
     "scss/at-rule-no-unknown": true,
     "csstree/validator": true
   },
-  "ignoreFiles": ["build/**", "docs/**", "**/reset*.css", "**/bootstrap*.css", "src/scss/style.css"]
+  "ignoreFiles": ["build/**", "docs/**", "**/reset*.scss", "**/bootstrap*.css", "src/scss/style.css"]
 }

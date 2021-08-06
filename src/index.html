@@ -14,7 +14,7 @@
       <div>
         <div>
           <h3>Recent scores</h3>
-          <button type="button" class="refresh-btn">Refresh</button>
+          <button type="button" id="refresh-btn">Refresh</button>
         </div>
         <ul class="leader-board">
         </ul>
@@ -22,11 +22,12 @@
       <div>
         <h3>Add your score</h3>
         <form action="#">
-          <input type="text" placeholder="Your name" /><br>
-          <input type="text" placeholder="Your score" /><br>
-          <button type="submit">Submit</button>
+          <input type="text" placeholder="Your name" id="name"/><br>
+          <input type="text" placeholder="Your score" id="score"/><br>
+          <button type="submit" id="submit-btn">Submit</button>
         </form>
       </div>
     </div>
+    <script type='module' src="js/index.js"></script>
   </body>
 </html>
