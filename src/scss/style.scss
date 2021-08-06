@@ -16,7 +16,7 @@
 
 }
 *{
-  box-sizing: border-box;
+  letter-spacing: 1px;
 }
 h1{
   font-size: 50px;
@@ -26,21 +26,17 @@ h1{
   opacity: 0.4;
 }
 
-// p{
-//   margin-bottom: 1.5rem;
-// }
+.leader-board {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+
 
 h3 {
   display: inline-block;
   font-size: 30px;
   padding: 20px;
-}
-
-
-
-form {
-  flex-direction: column;
-  display: flex;
 }
 
 button {
@@ -51,11 +47,26 @@ button {
   border-radius: 0.5rem;
 }
 
-.recent-scores{
-  text-align: center;
+button[type="submit"] {
+  margin: 10px 0 0 160px
 }
 
-.leader-board {
-  overflow: scroll;
-  height: 300px;
+p{
+  font-size: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+};
+
+li {
+  background: #fff;
+  padding: 1rem;
+}
+
+li:nth-child(2n) {
+  background: #ccc;
 }
