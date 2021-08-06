@@ -65,6 +65,10 @@ input {
   height: 80vh;
   width: 100%;
   font-family: 'bangers';
+  background-image: url("/mario.jpg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 100% 35%;
 }
 
 .container::before {
@@ -96,7 +100,6 @@ h1 {
 .leader-board {
   overflow-y: scroll;
   height: 300px;
-  border: 1px solid black;
   position: relative;
 }
 
