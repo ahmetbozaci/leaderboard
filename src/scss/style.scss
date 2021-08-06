@@ -1,37 +1,51 @@
+/** @format */
+
 @import 'reset.scss';
 
 .flex {
   display: flex;
   justify-content: space-around;
-  margin:7.5rem;
+  margin: 5.5rem;
+  position: relative;
 }
 
-.container{
-  //background-image: url('/mario2.png');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-attachment: fixed;
-  background-size: auto;
+.container {
+  position: relative;
+  height: 80vh;
+  width: 100%;
   font-family: 'bangers';
-
 }
-*{
+
+.container::before {
+  content: '';
+  background-image: url('/mario2.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.35;
+}
+
+* {
   letter-spacing: 1px;
 }
-h1{
+
+h1 {
   font-size: 50px;
   position: fixed;
   top: 1.5rem;
   left: 1.5rem;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .leader-board {
   overflow-y: scroll;
   height: 300px;
 }
-
-
 
 h3 {
   display: inline-block;
@@ -47,11 +61,11 @@ button {
   border-radius: 0.5rem;
 }
 
-button[type="submit"] {
-  margin: 10px 0 0 160px
+button[type='submit'] {
+  margin: 10px 0 0 160px;
 }
 
-p{
+p {
   font-size: 20px;
 }
 
@@ -60,11 +74,12 @@ input {
   margin: 10px;
   border-radius: 5px;
   font-size: 1rem;
-};
+}
 
 li {
   background: #fff;
   padding: 1rem;
+  font-size: 1.2rem;
 }
 
 li:nth-child(2n) {
