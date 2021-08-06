@@ -1,5 +1,5 @@
 /** @format */
-import '../scss/style.scss';
+// import '../scss/style.scss';
 import { getApiData, addDataApi } from './leaderBoardApi.js';
 
 const addScore = (name, score) => {

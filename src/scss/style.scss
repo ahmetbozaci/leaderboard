@@ -3,6 +3,29 @@
 .flex {
   display: flex;
   justify-content: space-around;
+  margin:6.5rem;
+}
+
+.container{
+  background-image: url('/mario2.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-attachment: fixed;
+  background-size: auto;
+  font-family: 'bangers';
+
+}
+
+h1{
+  font-size: 50px;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  opacity: 0.4;
+}
+
+p{
+  margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -16,3 +39,5 @@ ul {
 form {
   flex-direction: column;
 }
+
+
