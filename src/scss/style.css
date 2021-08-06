@@ -82,7 +82,7 @@ input {
 }
 
 * {
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 h1 {
@@ -137,5 +137,15 @@ li {
 
 li:nth-child(2n) {
   background: #ccc;
+}
+
+footer {
+  text-align: center;
+  margin: 175px;
+}
+
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 /*# sourceMappingURL=style.css.map */

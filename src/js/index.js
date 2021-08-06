@@ -2,9 +2,9 @@
 // import '../scss/style.scss';
 import { getApiData, addDataApi } from './leaderBoardApi.js';
 
-const addScore = (name, score) => {
-  name = document.getElementById('name').value;
-  score = document.getElementById('score').value;
+const addScore = () => {
+  const name = document.getElementById('name').value;
+  const score = document.getElementById('score').value;
   addDataApi(name, score);
 };
 
