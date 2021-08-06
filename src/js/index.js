@@ -18,7 +18,7 @@ const displayBoard = (scoreArray) => {
   scoreArray.forEach((item) => {
     const li = document.createElement('li');
     leaderBoard[0].appendChild(li);
-    li.append(`${item.user} ---- ${item.score}`);
+    li.append(`${item.user} ----- ${item.score}`);
   });
 };
 

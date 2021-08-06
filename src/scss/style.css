@@ -96,6 +96,8 @@ h1 {
 .leader-board {
   overflow-y: scroll;
   height: 300px;
+  border: 1px solid black;
+  position: relative;
 }
 
 h3 {

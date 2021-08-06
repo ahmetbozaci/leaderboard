@@ -1,5 +1,5 @@
 const APIURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
-const gamesID = 'nodsadı'; // YUELB6qMFZSbsC3Ub4pp // Super Mario
+const gamesID = 'YUELB6qMFZSbsC3Ub4pp'; // Super Mario
 const scoreUrl = `${APIURL}/games/${gamesID}/scores`;
 
 const addDataApi = (user, score) => {
