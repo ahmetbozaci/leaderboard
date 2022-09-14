@@ -1,0 +1,18 @@
+@import 'reset.scss';
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  display: inline-block;
+}
+
+ul {
+  border: 1px solid black;
+}
+
+form {
+  flex-direction: column;
+}
